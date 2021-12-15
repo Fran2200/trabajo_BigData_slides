@@ -1,0 +1,72 @@
+body {
+    background-color: #e0e0e0;
+}
+
+slide{
+  box-shadow: 2px 2px 5px  #606060;
+}
+
+slides > slide.dark {
+    background: #83af9b !important;
+}
+
+
+gdbar{
+  background-color: #83af9b;
+}
+
+h2 {
+   background-color: #83af9b;
+   color: white;
+   box-shadow: 2px 2px 5px  #606060;
+}
+
+.title-slide hgroup h2 {
+    font-size: 34px;
+    color: #fffefe;
+    font-weight: inherit;
+    box-shadow: 2px 2px 5px  #606060;
+}
+
+.segue h2 {
+    color: #e6e6e6;
+    font-size: 60px;
+    box-shadow: 0px 0px 0px  #606060;
+}
+
+
+aside.gdbar {
+    height: 97px;
+    width: 215px;
+    position: absolute;
+    left: -1px;
+    top: 125px;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -ms-border-radius: 0 10px 10px 0;
+    -o-border-radius: 0 10px 10px 0;
+    border-radius: 0 10px 10px 0;
+    background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #e6e6e6), color-stop(100%, #e6e6e6)) no-repeat;
+    background: -webkit-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
+    background: -moz-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
+    background: -o-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
+    background: linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
+    -webkit-background-size: 0% 100%;
+    -moz-background-size: 0% 100%;
+    -o-background-size: 0% 100%;
+    background-size: 0% 100%;
+    -webkit-transition: all 0.5s ease-out;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition: all 0.5s ease-out 0.5s;
+    -o-transition: all 0.5s ease-out 0.5s;
+    transition: all 0.5s ease-out 0.5s;
+    background-color: #83af9b;
+}
+
+
+slides > slide:not(.nobackground):before {
+  background-image: url(logo.png)
+  width: 150px;
+  height: 75px;
+  background-size: 150px 75px;
+}
