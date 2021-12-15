@@ -1,0 +1,204 @@
+---
+title: "Inflación en tiempos de pandemia"
+author: "Universitat de València."
+date: "Diciembre de 2021"
+output:
+  ioslides_presentation:
+    css: "assets/pantilla.css"
+    transition: slower
+    logo: imagenes/logo.png
+    widescreen: yes
+subtitle:  Jesús Lloret Quero, Francisco Martinez Caballero y Vicent Mompó Crespo.
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introducción {.smaller}
+
+<div class="columns-2">
+
+```{r, echo = FALSE, out.width = "20%"}
+tweetrmd::tweet_embed("https://twitter.com/rdomenechv/status/1465936143787171840?s=20", theme = "light", align = "center", dnt = TRUE, maxwidth = 5)
+```
+<div style="text-align: justify"><div/>
+
+<br>
+
+.El encarecimiento de los precios de la **energía**, la falta de **microprocesadores**, los **estímulos monetarios** realizados por el BCE y la crisis sanitaria del **Covid-19**, han ocasionando la aparición de datos de inflación que no se alcanzaban desde la crisis del petróleo de los años 70. 
+
+.La economía europea, y en especial la española, se enfrentan al reto de afrontar este desajuste en una de las principales variables macroeconómicas, los precios. 
+
+.Esta incremneto en el nivel general de precios, afecta especialmente a las **rentas bajas** y genera un problema de **desabastecimiento** de ciertos productos a escala mundial.
+
+ 
+</div>
+
+
+
+# CONTEXTO HISTÓRICO | Estabilización de la inflación
+
+
+## Evolución mundial media {.smaller}
+
+<br>
+
+```{r, echo = FALSE, eval = TRUE, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "inflacion_evolucion.png") ) 
+
+```
+
+## Evolución mundial desde el 2000 {.smaller}
+<br>
+
+```{r, echo = FALSE, eval = TRUE, out.width = "100%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "mundo.gif") ) 
+
+```
+
+## Outliers {.smaller}
+
+
+```{r, echo = FALSE, eval = TRUE, out.width = "85%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "extremos.png") ) 
+
+```
+
+# INFLACIÓN ACTUAL | ¿Qué está sucediendo en Europa?
+
+## Cambio de tendencia {.smaller}
+
+
+```{r, echo = FALSE, eval = TRUE, out.width = "75%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "europa.gif") ) 
+
+```
+
+## Diferencias entre general y subyacente {.smaller}
+
+
+```{r, echo = FALSE, eval = TRUE, out.width = "75%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "inflacion_europa.png") ) 
+
+```
+
+## ¿Qué ha contribuido al aumento de los precios? {.smaller}
+
+
+```{r, echo = FALSE, eval = TRUE, out.width = "75%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "componentes.png") ) 
+
+```
+
+
+# INFLACIÓN EN ESPAÑA | ¿Seguimos la tendencia Europea?
+
+
+## Evolución del IPC en España
+
+```{r, echo = FALSE, eval = TRUE, out.width = "70%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "inflacion_espana.png") ) 
+
+```
+
+## Comunidades
+
+```{r, echo = FALSE, eval = TRUE, out.width = "70%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "inflacion_comunidades.png") ) 
+
+```
+
+
+
+## Provincias
+
+```{r, echo = FALSE, eval = TRUE, out.width = "60%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "provincias.png") ) 
+
+knitr::include_graphics(here::here("imagenes", "tabla_provincias.png") )
+```
+
+# CONSECUENCIAS | ¿A quién afecta más la subida de precios?
+
+## Propiedades
+
+```{r, echo = FALSE, eval = TRUE, out.width = "70%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "propiedad.png") ) 
+
+```
+
+
+## Activos
+
+```{r, echo = FALSE, eval = TRUE, out.width = "70%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "activos.png") ) 
+
+
+```
+
+
+# PREVISIONES | ¿Actuará el BCE?
+
+
+
+## Previsiones de inflación Eurozona
+
+```{r, echo = FALSE, eval = TRUE, out.width = "70%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "prediccion.png") ) 
+
+
+```
+
+## Previsiones de crecimiento
+
+```{r, echo = FALSE, eval = TRUE, out.width = "70%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "crecimiento_1.png") ) 
+
+
+```
+
+## Deuda/PIB 2020
+
+```{r, echo = FALSE, eval = TRUE, out.width = "80%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "deuda.png") ) 
+
+
+```
+
+
+
+## Bibliografía. {.smaller}
+
+Para la realización de los gráficos y los comentarios pertinentes nos hemos basado en la información que vamos a exponer en los siguientes párrafos.
+
+Para poder realizar los comentarios, nos hemos formado con artículos como los siguientes:
+
+- <a href="https://www.eleconomista.es/economia/amp/11501369/Powell-alerta-de-que-tras-Omnicron-la-inflacion-ya-no-es-transitoria">https://www.eleconomista.es/economia/amp/11501369/Powell-alerta-de-que-tras-Omnicron-la-inflacion-ya-no-es-transitoria</a>
+
+- <a href="https://www.caixabankresearch.com/en/publicaciones/notas-breves-actualidad-economica-y-financiera/internacional/aumento-generalizado-y">https://www.caixabankresearch.com/en/publicaciones/notas-breves-actualidad-economica-y-financiera/internacional/aumento-generalizado-y</a>
+
+- <a href="https://www.eleconomista.es/flash/#flash_15450">https://www.eleconomista.es/flash/#flash_15450</a>
+
+Además, para la elaboración de gráficos que nos parecían útiles para implementar en el trabajo, hemos consultado información sobre como elaborar un [treemap](https://www.r-graph-gallery.com/treemap.html"), para observar la importancia de los componentes, un [barplot circular](https://www.r-graph-gallery.com/296-add-labels-to-circular-barplot.html), para representar las comunidades autónomas, entre otros.
+  
+(Para consultar todas las referencias puede acudir [aquí](https://fran2200.github.io/trabajo_BigData_equipo/))
+
+
+
